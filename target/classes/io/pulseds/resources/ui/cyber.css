@@ -1,0 +1,34 @@
+.root {
+    -fx-background-color: #0b0f14;
+    -fx-font-family: "Consolas", "JetBrains Mono", monospace;
+}
+
+.label {
+    -fx-text-fill: #cfd8dc;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: #00ffcc;
+    -fx-text-fill: #00ffcc;
+    -fx-border-radius: 4;
+    -fx-padding: 6 14 6 14;
+}
+
+.button:hover {
+    -fx-background-color: rgba(0, 255, 204, 0.15);
+}
+
+.list-view {
+    -fx-background-color: #0b0f14;
+    -fx-control-inner-background: #0b0f14;
+    -fx-border-color: #00ffcc;
+}
+
+.list-cell {
+    -fx-text-fill: #cfd8dc;
+}
+
+.list-cell:selected {
+    -fx-background-color: rgba(0, 255, 204, 0.25);
+}
